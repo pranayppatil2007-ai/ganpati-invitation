@@ -12,7 +12,6 @@ content="width=device-width, initial-scale=1.0">
 श्री गणेश चतुर्थी | सस्नेह निमंत्रण
 </title>
 
-
 <style>
 
 /* ================= BASIC ================= */
@@ -28,33 +27,23 @@ html{
 }
 
 body{
-
   background:#100806;
-
   color:#fff5df;
-
   font-family:
   "Noto Sans Devanagari",
   "Mangal",
   sans-serif;
-
   overflow-x:hidden;
-
 }
 
 
 /* ================= चमकणारे कण ================= */
 
 body::before{
-
   content:"";
-
   position:fixed;
-
   inset:0;
-
   pointer-events:none;
-
   opacity:.15;
 
   background-image:
@@ -64,9 +53,7 @@ body::before{
   );
 
   background-size:20px 20px;
-
   z-index:20;
-
 }
 
 
@@ -75,21 +62,16 @@ body::before{
 .hero{
 
   min-height:100vh;
-
   min-height:100svh;
 
   display:flex;
-
   align-items:center;
-
   justify-content:center;
 
   position:relative;
-
   overflow:hidden;
 
   background:
-
   radial-gradient(
     circle at 50% 30%,
     #b44922 0%,
@@ -107,7 +89,6 @@ body::before{
   position:absolute;
 
   width:75vw;
-
   height:75vw;
 
   border-radius:50%;
@@ -125,17 +106,12 @@ body::before{
 @keyframes धडधड{
 
   from{
-
     transform:scale(1);
-
   }
 
   to{
-
     transform:scale(1.2);
-
     opacity:.7;
-
   }
 
 }
@@ -146,7 +122,6 @@ body::before{
 .फूल{
 
   position:absolute;
-
   font-size:34px;
 
   animation:
@@ -156,44 +131,29 @@ body::before{
 
 
 .फूल१{
-
   top:10%;
-
   left:8%;
-
 }
 
 
 .फूल२{
-
   top:17%;
-
   right:8%;
-
   animation-delay:1s;
-
 }
 
 
 .फूल३{
-
   bottom:12%;
-
   left:8%;
-
   animation-delay:2s;
-
 }
 
 
 .फूल४{
-
   bottom:18%;
-
   right:9%;
-
   animation-delay:3s;
-
 }
 
 
@@ -235,9 +195,7 @@ body::before{
   backdrop-filter:blur(14px);
 
   box-shadow:
-
   0 30px 80px #000b,
-
   inset 0 1px #ffffff55;
 
   animation:
@@ -255,11 +213,8 @@ body::before{
     opacity:0;
 
     transform:
-
     perspective(900px)
-
     rotateX(18deg)
-
     translateY(40px);
 
   }
@@ -267,7 +222,6 @@ body::before{
   to{
 
     opacity:1;
-
     transform:none;
 
   }
@@ -374,7 +328,6 @@ h1{
   border-radius:50px;
 
   background:
-
   linear-gradient(
     135deg,
     #ffd36a,
@@ -396,22 +349,18 @@ h1{
 /* ================= SECTION ================= */
 
 section{
-
   padding:75px 18px;
-
 }
 
 
 .गडद{
 
   background:
-
   radial-gradient(
     circle at 50% 0,
     #b74b2377,
     transparent 55%
   ),
-
   #160907;
 
 }
@@ -420,7 +369,6 @@ section{
 .पात्र{
 
   max-width:900px;
-
   margin:auto;
 
 }
@@ -487,7 +435,6 @@ section{
   border-radius:25px;
 
   background:
-
   linear-gradient(
     145deg,
     #ffffff0d,
@@ -507,20 +454,15 @@ section{
 .कार्ड:hover{
 
   transform:
-
   translateY(-10px)
-
   rotateX(3deg)
-
   rotateY(-3deg);
 
 }
 
 
 .चिन्ह{
-
   font-size:45px;
-
 }
 
 
@@ -624,49 +566,6 @@ section{
 }
 
 
-/* ================= निमंत्रक ================= */
-
-.निमंत्रक{
-
-  margin-top:25px;
-
-  padding:18px 12px;
-
-  text-align:center;
-
-  border-top:
-  1px solid #c08a3d88;
-
-  border-bottom:
-  1px solid #c08a3d88;
-
-}
-
-
-.निमंत्रक span{
-
-  display:block;
-
-  color:#8c2419;
-
-  font-size:16px;
-
-  margin-bottom:5px;
-
-}
-
-
-.निमंत्रक strong{
-
-  display:block;
-
-  color:#9b321c;
-
-  font-size:24px;
-
-}
-
-
 /* ================= COUNTDOWN ================= */
 
 .उलटगणना{
@@ -698,6 +597,9 @@ section{
 
   text-align:center;
 
+  box-shadow:
+  0 8px 20px #0004;
+
 }
 
 
@@ -713,6 +615,49 @@ section{
 .वेळ small{
 
   opacity:.85;
+
+}
+
+
+/* ================= निमंत्रक ================= */
+
+.निमंत्रक{
+
+  margin-top:28px;
+
+  padding:20px 12px;
+
+  text-align:center;
+
+  border-top:
+  1px solid #c08a3d88;
+
+  border-bottom:
+  1px solid #c08a3d88;
+
+}
+
+
+.निमंत्रक span{
+
+  display:block;
+
+  color:#8c2419;
+
+  font-size:16px;
+
+  margin-bottom:6px;
+
+}
+
+
+.निमंत्रक strong{
+
+  display:block;
+
+  color:#9b321c;
+
+  font-size:24px;
 
 }
 
@@ -859,7 +804,6 @@ section{
 .संपर्क{
 
   background:
-
   linear-gradient(
     180deg,
     #170b08,
@@ -951,37 +895,23 @@ footer{
 @media(max-width:600px){
 
   h1{
-
     font-size:32px;
-
   }
-
 
   .मुख्यपत्र{
-
     padding:35px 17px;
-
   }
-
 
   .चित्रसंच{
-
     grid-template-columns:1fr;
-
   }
-
 
   .गणेशचित्र{
-
     height:430px;
-
   }
 
-
   .निमंत्रक strong{
-
     font-size:21px;
-
   }
 
 }
@@ -1039,9 +969,7 @@ id="मुख्यपत्र"
 
 
 <div class="ॐ">
-
 ॐ
-
 </div>
 
 
@@ -1075,10 +1003,6 @@ id="मुख्यपत्र"
 
 
 <div class="स्थळ">
-
-सकाळी ९.०० वाजता
-
-<br>
 
 मु. दिवीपारंगी,
 पोस्ट-चिंचोटी,
@@ -1300,13 +1224,6 @@ href="#निमंत्रण"
 
 <b>
 📅 दिनांक : १४ सप्टेंबर २०२६
-</b>
-
-<br>
-
-
-<b>
-🕘 वेळ : सकाळी ९.०० वाजता
 </b>
 
 <br>
@@ -1577,76 +1494,78 @@ href="#मुख्यपान"
 
 /* ================= COUNTDOWN ================= */
 
+/*
+  Countdown reaches 0 at the beginning
+  of 14 September 2026.
+
+  The event time is NOT displayed
+  anywhere on the website.
+*/
+
 const लक्ष्य =
 
 new Date(
-"2026-09-14T09:00:00+05:30"
+  "2026-09-14T00:00:00+05:30"
 ).getTime();
 
 
 function उलटगणना(){
 
-
-let उ =
-
-Math.max(
-0,
-लक्ष्य - Date.now()
-);
+  let उ =
+    Math.max(
+      0,
+      लक्ष्य - Date.now()
+    );
 
 
-let दिवस =
-
-Math.floor(
-उ / 86400000
-);
-
-
-उ %= 86400000;
+  let दिवस =
+    Math.floor(
+      उ / 86400000
+    );
 
 
-let तास =
-
-Math.floor(
-उ / 3600000
-);
+  उ %= 86400000;
 
 
-उ %= 3600000;
+  let तास =
+    Math.floor(
+      उ / 3600000
+    );
 
 
-let मिनिटे =
-
-Math.floor(
-उ / 60000
-);
+  उ %= 3600000;
 
 
-let सेकंद =
-
-Math.floor(
-उ / 1000
-) % 60;
-
-
-document
-.getElementById("दिवस")
-.textContent = दिवस;
+  let मिनिटे =
+    Math.floor(
+      उ / 60000
+    );
 
 
-document
-.getElementById("तास")
-.textContent = तास;
+  let सेकंद =
+    Math.floor(
+      उ / 1000
+    ) % 60;
 
 
-document
-.getElementById("मिनिटे")
-.textContent = मिनिटे;
+  document
+    .getElementById("दिवस")
+    .textContent = दिवस;
 
 
-document
-.getElementById("सेकंद")
-.textContent = सेकंद;
+  document
+    .getElementById("तास")
+    .textContent = तास;
+
+
+  document
+    .getElementById("मिनिटे")
+    .textContent = मिनिटे;
+
+
+  document
+    .getElementById("सेकंद")
+    .textContent = सेकंद;
 
 }
 
@@ -1655,8 +1574,8 @@ document
 
 
 setInterval(
-उलटगणना,
-1000
+  उलटगणना,
+  1000
 );
 
 
@@ -1665,64 +1584,63 @@ setInterval(
 const पत्र =
 
 document.getElementById(
-"मुख्यपत्र"
+  "मुख्यपत्र"
 );
 
 
 document.addEventListener(
 
-"pointermove",
+  "pointermove",
 
-function(e){
+  function(e){
 
+    if(
+      window.innerWidth < 700
+    ){
 
-if(
-window.innerWidth < 700
-){
+      return;
 
-return;
-
-}
-
-
-const x =
-
-(
-e.clientX /
-window.innerWidth -
-.5
-) * 7;
+    }
 
 
-const y =
+    const x =
 
-(
-e.clientY /
-window.innerHeight -
-.5
-) * -7;
+    (
+      e.clientX /
+      window.innerWidth -
+      .5
+    ) * 7;
 
 
-पत्र.style.transform =
+    const y =
 
-`perspective(900px)
-rotateY(${x}deg)
-rotateX(${y}deg)`;
+    (
+      e.clientY /
+      window.innerHeight -
+      .5
+    ) * -7;
 
-}
+
+    पत्र.style.transform =
+
+    `perspective(900px)
+     rotateY(${x}deg)
+     rotateX(${y}deg)`;
+
+  }
 
 );
 
 
 document.addEventListener(
 
-"pointerleave",
+  "pointerleave",
 
-function(){
+  function(){
 
-पत्र.style.transform = "";
+    पत्र.style.transform = "";
 
-}
+  }
 
 );
 
@@ -1731,4 +1649,4 @@ function(){
 
 </body>
 
-</html>
+  </html>
